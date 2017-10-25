@@ -1,3 +1,4 @@
+<?php
 // Write array into json config file
 function json_write($json, $path, $key = ''){
 	if (!empty($key)){
@@ -31,3 +32,4 @@ function json_write($json, $path, $key = ''){
 	return $return;
 }
 
+?>
