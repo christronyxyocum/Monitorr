@@ -77,7 +77,7 @@ by @seanvree, @wjbeckett, and @jonfinley
 								setInterval(statusCheck, <?php echo $config['rfsysinfo']; ?>);
 				</script>
 
-		<title><?php echo $config['title']; ?></title>
+		<title><?php echo $config['title']; ?> Settings</title>
 
 </head>
 
