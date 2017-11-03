@@ -15,9 +15,9 @@
 - Host system resources display (CPU, MEM, PING, Uptime)(NEW)
 - Server DTG data
 - Update Monitorr via web UI.
+- User customizable system threshold colors
 
 <b> Features in development: </b>
-- Monitorr update via GUI
 - Settings page
 - Drag 'n drop tiles
 
