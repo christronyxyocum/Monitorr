@@ -2,7 +2,6 @@
 // styled by @jonfinley
 //          EXAMPLE
 //  'dontedit' => 'EDITHERE'
-
 $config = array(
     'title' => 'Monitorr', // Site Title
     'siteurl' => 'http://localhost', // SITE URL
@@ -34,22 +33,27 @@ $config = array(
 $myServices = array(
     "Monitorr" => array(
         "link" => "http://localhost/monitorr",
+        "ping" => "https://localhost:80",
         "image" => "monitorr.png"
         ),
     "PLEX" => array(
-        "link" => "http://localhost:32400",
+        "link" => "http://localhost/plex",
+        "ping" => "https://localhost:32400",
         "image" => "plex.png"
         ),
     "Sonarr" => array(
-        "link" => "http://localhost:8989",
+        "link" => "http://localhost/sonarr",
+        "ping" => "https://localhost:8989",
         "image" => "sonarr.png"
         ),
     "Radarr" => array(
-        "link" => "http://localhost:7878",
+        "link" => "http://localhost/sonarr",
+        "ping" => "https://localhost:7878",
         "image" => "radarr.png"
         ),
     "PlexPy" => array(
-        "link" => "http://localhost:8181",
+        "link" => "http://localhost/plexpy",
+        "ping" => "https://localhost:8181",
         "image" => "plexpy.png"
         ),
    );

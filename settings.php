@@ -33,10 +33,10 @@ by @seanvree, @wjbeckett, and @jonfinley
 				.auto-style1 { float: center; text-align: center; }
 		</style>
 
-		<?php $file = '/assets/config.php';
+		<?php $file = 'assets/config.php';
 		//Use the function is_file to check if the file already exists or not.
 		if(!is_file($file)){
-    	copy('/assets/config.php.sample', $file);
+    	copy('assets/config.php.sample', $file);
 		} ?>
 		<?php include ('assets/config.php'); ?>
 		<?php include ('assets/php/check.php') ;?>
@@ -88,7 +88,7 @@ by @seanvree, @wjbeckett, and @jonfinley
 				<!-- /row -->
 				<?php foreach ( $myServices as $t => $k ) { ?>
 				    <div>
-				    	<?php echo $MyServices; echo $k['link'] ; echo $k['ping']; echo $k['image']; ?>
+				    	<?php echo $t; echo $k['link'] ; echo $k['ping']; echo $k['image']; ?>
 				    </div>
 				<?php } ?>
 		</div>
