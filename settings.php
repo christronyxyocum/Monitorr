@@ -86,7 +86,11 @@ by @seanvree, @wjbeckett, and @jonfinley
 
 		<div class="container">
 				<!-- /row -->
-<
+				<?php foreach ( $myServices as $t => $k ) { ?>
+				    <div>
+				    	<?php echo $MyServices; echo $k['link'] ; echo $k['ping']; echo $k['image']; ?>
+				    </div>
+				<?php } ?>
 		</div>
 		<div class="row">
 				<div id="stats" class="container centered">
