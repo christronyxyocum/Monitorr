@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <!--
 	__  __             _ _
  |  \/  |           (_) |
@@ -12,7 +11,6 @@
 by @seanvree, @wjbeckett, and @jonfinley
 	https://github.com/Monitorr/Monitorr
 -->
-
 <head>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<meta charset="utf-8">
@@ -30,19 +28,16 @@ by @seanvree, @wjbeckett, and @jonfinley
 		<link href='//fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
 
 		<style>
-				body.offline #link-bar {
-						display: none;
-				}
-
-				body.online #link-bar {
-						display: block;
-				}
-
-				.auto-style1 {
-						float: center;
-						text-align: center;
-				}
+				body.offline #link-bar { display: none; }
+				body.online #link-bar { display: block; }
+				.auto-style1 { float: center; text-align: center; }
 		</style>
+
+		<?php $file = '/assets/config.php';
+		//Use the function is_file to check if the file already exists or not.
+		if(!is_file($file)){
+    	copy('/assets/config.php.sample', $file);
+		} ?>
 		<?php include ('assets/config.php'); ?>
 		<?php include ('assets/php/check.php') ;?>
 		<?php include ('assets/php/gitinfo.php'); ?>
@@ -91,7 +86,7 @@ by @seanvree, @wjbeckett, and @jonfinley
 
 		<div class="container">
 				<!-- /row -->
-
+<
 		</div>
 		<div class="row">
 				<div id="stats" class="container centered">
