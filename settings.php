@@ -134,7 +134,7 @@ by @seanvree, @wjbeckett, and @jonfinley
         
             <div class="Row">
 
-                <form action="return.php" class="js-ajax-php-json" method="post" accept-charset="utf-8">
+                <form action="assets/php/response.php" class="js-ajax-php-json" method="post" accept-charset="utf-8">
 
                     <div id="appbase" class="Column"> 
                         <center>APPLICATION BASE:</center>
